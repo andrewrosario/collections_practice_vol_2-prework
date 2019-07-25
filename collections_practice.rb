@@ -42,6 +42,7 @@ def count_elements(array)
       new_array[i].each do |key, value|
         puts key
         puts value
+        output[i][key] = value
       end
       i += 1
   end
