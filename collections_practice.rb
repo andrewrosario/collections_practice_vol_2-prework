@@ -64,6 +64,11 @@ end
 
 def find_cool(array)
   puts array
+  array.each do |item|
+    if item.value?("cool")
+      puts item
+    end
+  end
 end
 
 
