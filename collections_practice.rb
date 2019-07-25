@@ -65,7 +65,7 @@ end
 def find_cool(array)
   array.each do |item|
     if item.value?("cool")
-      return item
+      return [item]
     end
   end
 end
