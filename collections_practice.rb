@@ -76,6 +76,9 @@ def organize_schools(hash)
     value.each do |key2, value2|
       if new_hash.key?(value2)
         new_hash[value2] << key
+      else
+        new_hash[value2] = []
+        new_hash[value2] << key
       end
     end
   end
