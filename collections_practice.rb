@@ -49,7 +49,9 @@ end
 
 def merge_data(arr1, arr2)
   arr1.each_with_index do |name, index|
-    arr2. 
+    arr2.each do |index|
+      puts index
+    end
   end
 end
 
