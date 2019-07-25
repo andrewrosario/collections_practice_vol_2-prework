@@ -63,10 +63,9 @@ def merge_data(arr1, arr2)
 end
 
 def find_cool(array)
-  puts array
   array.each do |item|
     if item.value?("cool")
-      puts item
+      return item
     end
   end
 end
