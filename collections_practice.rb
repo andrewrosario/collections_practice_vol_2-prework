@@ -54,7 +54,9 @@ def merge_data(arr1, arr2)
       item.each do |key, value|
         puts key
         puts value
-        # if key == 
+        if name.value?(key)
+          
+        end
       end
     end
   end
