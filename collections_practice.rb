@@ -48,9 +48,8 @@ def count_elements(array)
 end
 
 def merge_data(arr1, arr2)
-  arr1.each do |key, value|
-    puts key
-    puts value
+  arr1.each_with_index do |name, index|
+    arr2. 
   end
 end
 
