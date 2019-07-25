@@ -55,7 +55,8 @@ def merge_data(arr1, arr2)
         puts key
         puts value
         if name.value?(key)
-          
+          new_hash = name.merge(item)
+          puts new_hash
         end
       end
     end
