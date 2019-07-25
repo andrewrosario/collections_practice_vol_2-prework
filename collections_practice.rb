@@ -49,8 +49,11 @@ end
 
 def merge_data(arr1, arr2)
   arr1.each_with_index do |name, index|
-    arr2.each do |index|
-      puts index
+    arr2.each do |item|
+      item.each do |key, value|
+        puts key
+        puts value
+      end
     end
   end
 end
