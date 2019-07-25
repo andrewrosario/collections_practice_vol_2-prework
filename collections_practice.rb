@@ -39,7 +39,6 @@ def count_elements(array)
   while i < new_array.length do
     item_count = array.count do |index| 
       index == new_array[i]
-      output << {count: item_count}
       i += 1
       item_count
     end
