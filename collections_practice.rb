@@ -40,7 +40,7 @@ def count_elements(array)
     item_count = array.count do |index| 
       index == new_array[i]
       i += 1
-      item_count
+      output << item_count
     end
   end
   output
