@@ -41,7 +41,6 @@ def count_elements(array)
       puts item_count
       output << {count: item_count}
       i += 1
-    end
   end
   output
 end
