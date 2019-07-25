@@ -49,10 +49,12 @@ end
 
 def merge_data(arr1, arr2)
   arr1.each_with_index do |name, index|
+    puts "Name is #{name}"
     arr2.each do |item|
       item.each do |key, value|
         puts key
         puts value
+        # if key == 
       end
     end
   end
