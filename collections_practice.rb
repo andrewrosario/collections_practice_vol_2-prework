@@ -40,8 +40,6 @@ def count_elements(array)
     item_count = array.count {|index| index == new_array[i]}
       output << {count: item_count}
       new_array[i].each do |key, value|
-        puts key
-        puts value
         output[i][key] = value
       end
       i += 1
@@ -49,7 +47,9 @@ def count_elements(array)
   output
 end
 
-
+def merge_data
+  
+end
 
 
 
