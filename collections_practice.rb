@@ -47,7 +47,7 @@ def count_elements(array)
   output
 end
 
-def merge_data
+def merge_data(arr1, arr2)
   
 end
 
