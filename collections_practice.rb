@@ -1,1 +1,72 @@
 # your code goes here
+
+def begins_with_r(array)
+  array.all? do |tool|
+    tool[0] == "r"
+  end
+end
+
+def contain_a(array)
+  a_array = []
+  array.each do |index|
+    if index.include?("a")
+      a_array << index
+    end
+  end
+  a_array
+end
+
+def first_wa(array)
+  array.each do |index|
+    return index if index.to_s.start_with?("wa")
+  end
+end
+
+def remove_non_strings(array)
+  new_array = []
+  array.each_with_index do |item, index|
+    if item.class == String
+      new_array << item
+    end
+  end
+  new_array
+end
+
+def count_elements(array)
+  new_array = array.uniq
+  output = []
+  i = 0
+  while i < new_array.length do
+    item_count = array.count do |index| 
+      puts item_count
+      index == new_array[i]
+      output << {count: item_count}
+      i += 1
+    end
+  end
+  output
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
