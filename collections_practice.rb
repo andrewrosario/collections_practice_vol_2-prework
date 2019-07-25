@@ -70,8 +70,12 @@ def find_cool(array)
   end
 end
 
-def organize_schools(array)
-  puts array
+def organize_schools(hash)
+  hash.each do |key, value|
+    puts key
+    puts value
+  end
+  
 end
 
 
