@@ -74,12 +74,11 @@ def organize_schools(hash)
   new_hash ={}
   hash.each do |key, value|
     value.each do |key2, value2|
-      if new_hash.key?
-      puts key2
-      puts value2
+      if new_hash.key?(value2)
+        new_hash[value2] << key
+      end
     end
   end
-  
 end
 
 
