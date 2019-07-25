@@ -72,8 +72,10 @@ end
 
 def organize_schools(hash)
   hash.each do |key, value|
-    puts key
-    puts value
+    value.each do |key2, value2|
+      puts key2
+      puts value2
+    end
   end
   
 end
